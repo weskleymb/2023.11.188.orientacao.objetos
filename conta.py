@@ -50,3 +50,6 @@ class Conta:
         if pode_transferir:
             self.sacar(valor)
             conta_destino.depositar(valor)
+
+class ContaPoupanca(Conta):
+    pass
